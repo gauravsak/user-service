@@ -9,7 +9,7 @@ public class UserController {
 
     @GetMapping(path = "/user/{id}", produces = "application/json")
     public User getUser(@PathVariable("id") String userId) {
-        return new User("paresh", "paresh@ee.com", "9888988786", "pune");
+        return new User("Paresh", "paresh@gmail.com", "9888988786", "Pune");
     }
 
     public static class User {
